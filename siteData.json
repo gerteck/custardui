@@ -1,0 +1,431 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "404.md",
+      "title": "Page not found",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "README.md",
+      "headings": {
+        "custom-views-library-documentation": "Custom Views Library Documentation",
+        "quick-start": "Quick Start",
+        "for-development": "For Development",
+        "for-production-build": "For Production Build",
+        "interactive-demo": "Interactive Demo",
+        "development-notes": "Development Notes"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "about.md",
+      "title": "About Page",
+      "headings": {
+        "about-page": "About Page"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/adaptations.md",
+      "title": "Author Guide - Site Adaptations",
+      "headings": {
+        "site-adaptations": "Site Adaptations",
+        "how-it-works": "How It Works",
+        "quick-start": "Quick Start",
+        "file-placement": "File Placement",
+        "adaptation-json-schema": "Adaptation JSON Schema",
+        "top-level-fields": "Top-level fields",
+        "theme": "theme",
+        "defaults": "defaults",
+        "state-layering-precedence": "State Layering Precedence",
+        "per-page-activation": "Per-Page Activation",
+        "clearing-an-adaptation": "Clearing an Adaptation",
+        "example-institution-adaptation-of-this-site": "Example: Institution Adaptation of this Site"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/components/all.md",
+      "title": "Components",
+      "headings": {
+        "components": "Components"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/components/placeholders.md",
+      "title": "CustomViews - Placeholders",
+      "headings": {
+        "simple-placeholders-variable-interpolation": "Simple Placeholders (Variable Interpolation)",
+        "usage": "Usage",
+        "add-the-placeholder-configuration": "Add the Placeholder Configuration",
+        "use-the-placeholder": "Use the placeholder",
+        "inline-fallback": "Inline Fallback",
+        "html-attribute-interpolation": "HTML Attribute Interpolation",
+        "escaping-syntax": "Escaping Syntax",
+        "inline-editing-of-placeholders": "Inline Editing of Placeholders",
+        "placeholder-input-attributes": "Placeholder-Input Attributes",
+        "placeholder-configuration": "Placeholder Configuration",
+        "tab-group-binding-and-amp-integration": "Tab Group Binding &amp; Integration",
+        "persistence": "Persistence"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/components/settings.md",
+      "title": "CustomViews - Settings",
+      "headings": {
+        "settings-dialog": "Settings Dialog",
+        "settings-icon-trigger": "Settings Icon Trigger",
+        "intro-popup-for-icon-trigger": "Intro Popup for Icon Trigger",
+        "opening-via-link": "Opening via Link",
+        "hash-trigger-recommended": "Hash Trigger (Recommended)",
+        "query-parameter": "Query Parameter",
+        "adaptive-display": "Adaptive Display",
+        "configuration": "Configuration",
+        "settings-options": "Settings Options",
+        "integration": "Integration"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/components/share.md",
+      "title": "Author Guide - Sharing",
+      "headings": {
+        "focused-views": "Focused Views",
+        "share-mode": "Share Mode",
+        "types-of-sharing": "Types of Sharing",
+        "toggling-share-mode": "Toggling Share Mode",
+        "selecting-elements": "Selecting Elements",
+        "generating-share-link": "Generating Share Link",
+        "exiting-share-mode": "Exiting Share Mode",
+        "focus-mode": "Focus Mode",
+        "configurations": "Configurations",
+        "using-customviews-without-the-settings-dialog": "Using CustomViews without the Settings Dialog",
+        "customizing-share-behavior-wip": "Customizing Share Behavior ( WIP )"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/components/tabs.md",
+      "title": "Author Guide - Tabs",
+      "headings": {
+        "basic-example": "Basic Example",
+        "advanced-example-with-badges": "Advanced Example with Badges",
+        "using-icons-in-headers": "Using Icons in Headers",
+        "tabs": "Tabs",
+        "no-id-tabs": "No-ID Tabs",
+        "multi-id-tabs": "Multi-ID Tabs",
+        "setting-the-default-tab": "Setting the Default Tab",
+        "header-syntax-with-rich-formatting": "Header Syntax with Rich Formatting",
+        "syntax-and-amp-rules": "Syntax &amp; Rules",
+        "attributes-and-amp-options": "Attributes &amp; Options",
+        "cv-tabgroup-attributes": "&lt;cv-tabgroup&gt; Attributes",
+        "cv-tab-attributes": "&lt;cv-tab&gt; Attributes",
+        "cv-tab-header-attributes": "&lt;cv-tab-header&gt; Attributes",
+        "cv-tab-body-attributes": "&lt;cv-tab-body&gt; Attributes",
+        "configuration": "Configuration",
+        "json-configuration-option-types": "JSON Configuration Option Types",
+        "binding-to-placeholders": "Binding to Placeholders",
+        "global-vs-local-tab-groups": "Global vs. Local Tab Groups",
+        "defining-local-components": "Defining Local Components"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/components/toggles.md",
+      "title": "CustomViews - Toggle Component",
+      "headings": {
+        "toggles": "Toggles",
+        "multi-id-toggles": "Multi-ID Toggles",
+        "toggles-with-peek-mode": "Toggles with Peek Mode",
+        "attributes-and-amp-options-of-cv-toggle": "Attributes &amp; Options of &lt;cv-toggle&gt;",
+        "configuration": "Configuration",
+        "key-configuration-fields-in-customviews-config-json-for-toggles": "Key Configuration Fields in customviews.config.json for Toggles",
+        "visibility-resolution-order": "Visibility Resolution Order",
+        "global-vs-local-toggles": "Global vs. Local Toggles",
+        "registering-local-toggles-for-settings": "Registering Local Toggles for Settings",
+        "troubleshooting": "Troubleshooting"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/configuration.md",
+      "title": "Author Guide - Configuration",
+      "headings": {
+        "configuration-reference": "Configuration Reference",
+        "configuration-file-customviews-config-json": "Configuration File (customviews.config.json)",
+        "basic-structure": "Basic Structure",
+        "summary-of-configuration-options": "Summary of Configuration Options",
+        "core-configuration-config": "Core Configuration (config)",
+        "global-options": "Global Options",
+        "settings-configuration-settings": "Settings Configuration (settings)",
+        "script-tag-attributes": "Script Tag Attributes",
+        "assets-configuration-assets-json": "Assets Configuration (assets.json)",
+        "asset-properties": "Asset Properties"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/gettingStarted.md",
+      "title": "Author Guide - Getting Started",
+      "headings": {
+        "getting-started": "Getting Started",
+        "method-1-cdn-script-tag-recommended": "Method 1: CDN / Script Tag (Recommended)",
+        "method-2-install-via-npm": "Method 2: Install via NPM",
+        "verify-installation": "Verify Installation"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/index.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/integrations/setupWithMarkbind.md",
+      "title": "Installation (MarkBind Setup)",
+      "headings": {
+        "setting-up-customviews-in-a-markbind-site": "Setting up CustomViews in a MarkBind Site",
+        "create-the-plugin-file": "Create the Plugin File",
+        "2-register-the-plugin-in-site-json": "2. Register the Plugin in site.json",
+        "3-create-customviews-config-json": "3. Create customviews.config.json"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/componentWorkings.md",
+      "title": "Developer Guide - Components",
+      "headings": {
+        "how-do-the-components-work-rough-explanation": "How do the components work (rough explanation)",
+        "placeholders": "Placeholders"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/devGuide.md",
+      "title": "Developer Guide",
+      "headings": {
+        "developer-guide": "Developer Guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/framework.md",
+      "title": "Architectural Overview",
+      "headings": {
+        "architectural-overview": "Architectural Overview",
+        "why-svelte": "Why Svelte?"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/gitWorkflow.md",
+      "title": "Developer Guide - Project Git Workflow",
+      "headings": {
+        "gitflow-workflow": "Gitflow Workflow",
+        "example-of-a-gitflow-workflow": "Example of a Gitflow Workflow",
+        "branches-in-gitflow": "Branches in GitFlow",
+        "main-branch": "Main Branch",
+        "develop-branch": "Develop Branch",
+        "feature-branches": "Feature Branches",
+        "release-branches": "Release Branches",
+        "hotfix-branches": "Hotfix branches",
+        "feature-release-workflow": "Feature Release Workflow",
+        "summary": "Summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/index.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/releases.md",
+      "title": "Developer Guide - Making Releases",
+      "headings": {
+        "release-workflow": "Release Workflow",
+        "prerequisites": "Prerequisites",
+        "beta-release-on-npm-experimental": "Beta Release on NPM (Experimental)",
+        "using-the-beta-release": "Using the beta release",
+        "production-release-on-npm-stable": "Production Release on NPM (Stable)",
+        "using-the-production-release": "Using the production release",
+        "making-the-release-on-github": "Making the Release on GitHub"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/shareFunction.md",
+      "title": "Developer Guide - Share Functionality",
+      "headings": {
+        "share-function": "Share Function",
+        "core-concepts": "Core Concepts",
+        "1-the-overlay-interface": "1. The Overlay Interface",
+        "2-robust-deep-linking": "2. Robust Deep Linking",
+        "3-url-serialization": "3. URL Serialization"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/tests/focus-test.md",
+      "title": "Developer Guide - Focus and Sharing Tests",
+      "headings": {
+        "focus-and-sharing-tests": "Focus and Sharing Tests",
+        "intro-section": "Introduction",
+        "step-1": "Step 1: Install Dependencies",
+        "step-2": "Step 2: Configure the Plugin",
+        "troubleshooting": "Troubleshooting",
+        "error-1": "Error: Build Fails",
+        "final-section": "Final Section"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/tests/localComponents.md",
+      "title": "Developer Guide - Local Components",
+      "headings": {
+        "local-components": "Local Components",
+        "local-components-2": "Local Components",
+        "local-toggle": "Local Toggle",
+        "local-tab-groups": "Local Tab Groups",
+        "further-testing": "Further Testing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/tests/nonStickyHeader.md",
+      "title": "Developer Guide - Non Sticky Header",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/tests/placeholders.md",
+      "title": "Developer Guide - Placeholder Tests",
+      "headings": {
+        "placeholder-tests": "Placeholder Tests",
+        "placeholders-from-config-work-with-tabgroup-on-page": "Placeholders from Config work with tabgroup on page:"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/tests/tabs.md",
+      "title": "Developer Guide - Tabs",
+      "headings": {
+        "tabs": "Tabs",
+        "fruits-tabs": "Fruits Tabs"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "CustardUI - Personalized, Interactive Static Websites",
+      "headings": {
+        "one-site-many-readers-zero-compromise": "One site. Many readers. Zero compromise.",
+        "memory-persistent-tabs": "Memory-Persistent Tabs",
+        "content-toggles": "Content Toggles",
+        "dynamic-placeholders": "Dynamic Placeholders",
+        "focus-and-amp-share": "Focus &amp; Share",
+        "adaptations": "Adaptations",
+        "zero-backend-any-site": "Zero Backend, Any Site",
+        "a-taste-of-custardui": "A taste of CustardUI",
+        "answer-questions-with-a-link": "Answer questions with a link.",
+        "one-resource-every-audience": "One resource. Every audience.",
+        "up-and-running-in-minutes": "Up and running in minutes.",
+        "make-your-site-work-for-every-reader": "Make your site work for every reader."
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "markbindSyntaxReference.md",
+      "headings": {
+        "markbind-comprehensive-syntax-reference": "MarkBind Comprehensive Syntax Reference",
+        "1-structure-and-amp-metadata": "1. Structure &amp; Metadata",
+        "frontmatter": "Frontmatter",
+        "variables": "Variables",
+        "includes": "Includes",
+        "2-basic-formatting": "2. Basic Formatting",
+        "text-styles": "Text Styles",
+        "headings": "Headings",
+        "lists": "Lists",
+        "tables": "Tables",
+        "3-components-and-amp-layout": "3. Components &amp; Layout",
+        "badges": "Badges",
+        "blockquotes": "Blockquotes",
+        "boxes": "Boxes",
+        "panels": "Panels",
+        "tabs": "Tabs",
+        "cardstacks": "CardStacks",
+        "4-navigation-and-amp-search": "4. Navigation &amp; Search",
+        "navbars-and-amp-site-menus": "Navbars &amp; Site Menus",
+        "page-navigation-and-amp-tools": "Page Navigation &amp; Tools",
+        "5-media-and-amp-diagrams": "5. Media &amp; Diagrams",
+        "images-pictures-and-amp-thumbnails": "Images, Pictures &amp; Thumbnails",
+        "annotations": "Annotations",
+        "diagrams-plantuml": "Diagrams (PlantUML)",
+        "embeds": "Embeds",
+        "6-interactive-features": "6. Interactive Features",
+        "modals-popovers-and-amp-tooltips": "Modals, Popovers &amp; Tooltips",
+        "questions-and-amp-quizzes": "Questions &amp; Quizzes",
+        "7-advanced-syntax": "7. Advanced Syntax",
+        "classes-and-amp-attributes": "Classes &amp; Attributes",
+        "math-formulae": "Math Formulae",
+        "footnotes": "Footnotes",
+        "tree-view": "Tree View",
+        "tags": "Tags"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "nus/index.md",
+      "title": "NUS — CustomViews",
+      "headings": {
+        "welcome-username-nus": "Welcome, [[username]]! (NUS)",
+        "share-nus-theme-link-clear-adaptation": "Share NUS theme link | Clear adaptation",
+        "content-with-adaptation-defaults-applied": "Content with adaptation defaults applied"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "readerGuide/customComponents.md",
+      "title": "Focused Views",
+      "headings": {
+        "custom-components": "Custom Components"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "readerGuide/focusedViews.md",
+      "title": "Focused Views",
+      "headings": {
+        "focused-views": "Focused Views",
+        "focus-view-experience": "Focus View Experience",
+        "highlight-view-experience": "Highlight View Experience",
+        "navigation": "Navigation",
+        "advanced-readable-urls": "Advanced: Readable URLs"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "readerGuide/index.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "readerGuide/readerGuide.md",
+      "title": "Reader Guide",
+      "headings": {
+        "reader-guide": "Reader Guide",
+        "customizing-your-view": "Customizing Your View",
+        "the-settings-panel": "The Settings Panel",
+        "what-you-can-customize": "What You Can Customize",
+        "interactive-elements": "Interactive Elements",
+        "smart-tabs": "Smart Tabs",
+        "dynamic-toggles": "Dynamic Toggles"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}
